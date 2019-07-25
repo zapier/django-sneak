@@ -1,0 +1,12 @@
+[tool.black]
+line-length = 88
+# skip-string-normalization = true
+single-quote = true  # relies on our fork https://github.com/zapier/black/pull/1
+skip-numeric-underscore-normalization = true
+exclude = '''
+/(
+    \.git
+  | venv
+  | node_modules
+)/
+'''

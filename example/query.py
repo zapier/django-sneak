@@ -1,12 +1,10 @@
 import os
 
-from sneak.query import ListQuerySet
-
 from models import FileSystemElement
+from sneak.query import ListQuerySet
 
 
 class FileSystemQuerySet(ListQuerySet):
-
     def filter(self, *args, **kwargs):
 
         fs = []
@@ -23,5 +21,6 @@ class FileSystemQuerySet(ListQuerySet):
                     populate(p)
                 else:
                     fs.append(FileSystemElement(p))
+
         populate(path)
         return FileSystemQuerySet(fs)
