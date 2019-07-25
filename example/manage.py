@@ -4,11 +4,10 @@ from __future__ import unicode_literals
 import os
 import sys
 
-# add the `zapier` directory to `sys.path`, as it's where we need to import
+# add the `example` directory to `sys.path`, as it's where we need to import
 # `configure_settings` from
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), 'example')))
 
-# from configure_settings import configure_settings  # isort:skip
 
 if __name__ == '__main__':
     from django.conf import settings
