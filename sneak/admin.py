@@ -1,3 +1,5 @@
+from __future__ import unicode_literals
+
 from django.contrib import admin
 
 from forms import DummyForm
@@ -6,6 +8,7 @@ from forms import DummyForm
 class SneakAdmin(admin.ModelAdmin):
     """Inherits this class and define ``QuerySet``. ``self.QuerySet.filter``
     should Result``"""
+
     form = DummyForm
     actions = None
 

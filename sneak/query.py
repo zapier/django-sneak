@@ -1,3 +1,6 @@
+from __future__ import unicode_literals
+
+
 class ListQuerySet(object):
     """This is duck class behaving like a Django QuerySet"""
 
