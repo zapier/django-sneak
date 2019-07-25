@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "django-sneak"
+name = "sneak"
 version = "0.1.post0"
 description = "Sneak into in admin change list"
 authors = ["Djaz Team <devweb@liberation.fr>", "Mariatta Wijaya <mariatta.wijaya@zapier.com>"]
