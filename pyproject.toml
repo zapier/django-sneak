@@ -1,3 +1,14 @@
+[tool.poetry]
+name = "django-sneak"
+version = "0.1.post0"
+description = "Sneak into in admin change list"
+authors = ["Djaz Team <devweb@liberation.fr>", "Mariatta Wijaya <mariatta.wijaya@zapier.com>"]
+readme = "README.md"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.7"
+pytest = "^4.6"
+
 [tool.black]
 line-length = 88
 # skip-string-normalization = true
@@ -10,3 +21,11 @@ exclude = '''
   | node_modules
 )/
 '''
+
+[[tool.poetry.source]]
+name = "zpypi"
+url = "https://pypi.zapier.com/simple"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
