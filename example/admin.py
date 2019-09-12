@@ -1,7 +1,7 @@
 from django.contrib import admin
 
-from models import FileSystemElement
-from query import FileSystemQuerySet
+from example.models import FileSystemElement
+from example.query import FileSystemQuerySet
 from sneak.admin import SneakAdmin
 
 
