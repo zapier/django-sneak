@@ -4,7 +4,7 @@ from distutils.core import setup
 
 setup(
     name='django-sneak',
-    version='0.1.post0',
+    version='0.1.post1',
     description='Sneak into in admin change list',
     author='Djaz Team',
     author_email='devweb@liberation.fr',
