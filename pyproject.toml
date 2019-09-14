@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sneak"
-version = "0.1.post1"
+version = "0.1.post2"
 description = "Sneak into in admin change list"
 authors = ["Djaz Team <devweb@liberation.fr>", "Mariatta Wijaya <mariatta.wijaya@zapier.com>"]
 readme = "README.rst"
