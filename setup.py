@@ -4,7 +4,7 @@ from distutils.core import setup
 
 setup(
     name='sneak',
-    version='0.1.post1',
+    version='0.1.post2',
     description='Sneak into in admin change list',
     author='Djaz Team',
     author_email='devweb@liberation.fr',
